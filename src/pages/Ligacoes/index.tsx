@@ -1,17 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { Text, View, TextInput } from 'react-native';
+import { Text, View } from 'react-native';
 import { styles } from './styles';
 import { Container } from '../../components/Container';
+import { CampoBusca } from '../../components/CampoBusca';
 
 export function Ligacoes() {
   return (
     <Container>
-      <View>
-        <TextInput
-          style={styles.campoBusca}
-          placeholder="Pesquisar"
-        />
-      </View>
+      <CampoBusca />
       <Text>Ligacoes</Text>
       <StatusBar style="auto" />
     </Container>

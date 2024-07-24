@@ -2,16 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, View, TextInput } from 'react-native';
 import { styles } from './styles';
 import { Container } from '../../components/Container';
+import { CampoBusca } from '../../components/CampoBusca';
 
 export function Contatos() {
   return (
     <Container>
-      <View>
-        <TextInput
-          style={styles.campoBusca}
-          placeholder="Pesquisar"
-        />
-      </View>
+      <CampoBusca />
       <Text>Contatos</Text>
       <StatusBar style="auto" />
     </Container>
