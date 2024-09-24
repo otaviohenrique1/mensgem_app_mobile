@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { Text, View, TextInput } from 'react-native';
 import { styles } from './styles';
 import { Container } from '../../components/Container';
@@ -9,7 +8,6 @@ export function Contatos() {
     <Container>
       <CampoBusca />
       <Text>Contatos</Text>
-      <StatusBar style="auto" />
     </Container>
   );
 }
